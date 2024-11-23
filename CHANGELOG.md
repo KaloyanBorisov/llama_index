@@ -1,5 +1,79 @@
 # ChangeLog
 
+## [2024-11-20]
+
+### `llama-index-core` [0.12.1]
+
+- Pin pydantic to `<2.10` temporarily
+- feat[react-multimodal]: add gemini support for images in MultimodalReActAgentWorker (#16992)
+
+### `llama-index-indices-managed-llama-cloud` [0.6.2]
+
+- api_key typo in llama-cloud-index (#17001)
+
+### `llama-index-llms-openai` [0.3.1]
+
+- Add support for latest gpt-4o model (#17015)
+
+### `llama-index-llms-zhipuai` [0.2.1]
+
+- zhipuai add stop param to api (#16996)
+
+### `llama-index-multi-modal-llms-mistralai` [0.3.1]
+
+- Add support for mistral latest models (#16991)
+
+### `llama-index-multi-modal-llms-replicate` [0.3.1]
+
+- Fix: Correct typo in replicate multi modal package (#16998)
+
+### `llama-index-vector-stores-pinecone` [0.4.1]
+
+- add get_nodes to pinecone (#17007)
+
+## [2024-11-17]
+
+**NOTE:** Updating to v0.12.0 will require bumping every other `llama-index-*` package! Every package has had a version bump. Only notable changes are below.
+
+### `llama-index-core` [0.12.0]
+
+- Dropped python3.8 support, Unpinned numpy (#16973)
+- Kg/dynamic pg triplet retrieval limit (#16928)
+
+### `llama-index-indices-managed-llama-cloud` [0.6.1]
+
+- Add ID support for LlamaCloudIndex & update from_documents logic, modernize apis (#16927)
+- allow skipping waiting for ingestion when uploading file (#16934)
+- add support for files endpoints (#16933)
+
+### `llama-index-indices-managed-vectara` [0.3.0]
+
+- Add Custom Prompt Parameter (#16976)
+
+### `llama-index-llms-bedrock` [0.3.0]
+
+- minor fix for messages/completion to prompt (#15729)
+
+### `llama-index-llms-bedrock-converse` [0.4.0]
+
+- Fix async streaming with bedrock converse (#16942)
+
+### `llama-index-multi-modal-llms-nvidia` [0.2.0]
+
+- add vlm support (#16751)
+
+### `llama-index-readers-confluence` [0.3.0]
+
+- Permit passing params to Confluence client (#16961)
+
+### `llama-index-readers-github` [0.5.0]
+
+- Add base URL extraction method to GithubRepositoryReader (#16926)
+
+### `llama-index-vector-stores-weaviate` [1.2.0]
+
+- Allow passing in Weaviate vector store kwargs (#16954)
+
 ## [2024-11-11]
 
 ### `llama-index-core` [0.11.23]
